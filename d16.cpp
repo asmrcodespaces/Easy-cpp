@@ -11,7 +11,8 @@ using namespace std;
 
 int main()
 {
-    int a[100], b[100], n, i, j, temp, min;
+    float a[100], b[100], temp;
+    int n, i, j, min;
 
     cout << "Enter number of students: ";
     cin >> n;

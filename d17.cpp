@@ -10,7 +10,8 @@ using namespace std;
 
 int main()
 {
-    int a[100], b[100], n, i, j, key, gap;
+    float a[100], b[100], key;
+    int n, i, j, gap;
 
     cout << "Enter number of students: ";
     cin >> n;

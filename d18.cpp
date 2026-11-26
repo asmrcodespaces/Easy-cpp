@@ -7,10 +7,11 @@ using namespace std;
 
 int main()
 {
-    int a[100], stack[200];
-    int n, i, j, temp;
+    float a[100], temp, pivot;
+    int stack[200];
+    int n, i, j;
     int top = -1;
-    int low, high, pivot, p;
+    int low, high, p;
 
     cout << "Enter number of students: ";
     cin >> n;
